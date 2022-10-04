@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\Microwave.Tests\\Microwave.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\MicroswaveWFApp\\MicroswaveWFApp.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\MicroswaveWFApp\\MicroswaveWFApp.csproj",
+        "projectName": "MicroswaveWFApp",
+        "projectPath": "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\MicroswaveWFApp\\MicroswaveWFApp.csproj",
+        "frameworks": {
+          "net481": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net481": {}
+      }
+    },
+    "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\Microwave.Tests\\Microwave.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\Microwave.Tests\\Microwave.Tests.csproj",
+        "projectName": "Microwave.Tests",
+        "projectPath": "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\Microwave.Tests\\Microwave.Tests.csproj",
+        "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\Microwave.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\john\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\MicroswaveWFApp\\MicroswaveWFApp.csproj": {
+                "projectPath": "C:\\Users\\john\\Source\\Repos\\WindowsFormsApp1\\MicroswaveWFApp\\MicroswaveWFApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
