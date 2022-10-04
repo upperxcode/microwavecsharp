@@ -40,8 +40,10 @@ bld/
 Generated\ Files/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
+#[Tt]est[Rr]esult*/
+#[Rr]esult*/
 [Bb]uild[Ll]og.*
+*.cache
 
 # NUnit
 *.VisualState.xml
